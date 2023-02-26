@@ -10,7 +10,8 @@ def run_game():
     denominator_progression = random.randint(1, 10)
     list_progression.append(str(first_element_progression))
     for i in range(1, length_progression):
-        progression_elements = first_element_progression + denominator_progression
+        progression_elements = first_element_progression \
+            + denominator_progression
         list_progression.append(str(progression_elements))
         first_element_progression = progression_elements
     number_choice = random.choice(list_progression)

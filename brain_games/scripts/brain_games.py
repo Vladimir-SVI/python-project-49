@@ -9,8 +9,7 @@ def hello():
 
 def main():
     hello()
-    name = brain_games.cli.welcome_user()
-    return name
+    brain_games.cli.welcome_user()
 
 
 if __name__ == '__main__':
