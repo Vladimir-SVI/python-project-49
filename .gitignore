@@ -1,2 +1,12 @@
 venv/
 dist/
+__pycache__/
+.DS_Store
+*.egg-info
+__pycache__
+*.pyc
+.venv/
+.coverage
+coverage.xml
+.pytest_cache/
+.idea/
