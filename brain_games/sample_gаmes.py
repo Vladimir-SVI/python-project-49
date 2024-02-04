@@ -10,8 +10,7 @@ def welcome_user():
 
 def launch_game_logic(player_name, rules_game, run_game):
     print(rules_game)
-    number_of_attempts = 3
-    while number_of_attempts > 0:
+    for i in range(1, 4):
         correct_answer = run_game()
         answer = prompt.string('Your answer: ').strip()
         if answer == correct_answer:
@@ -21,6 +20,5 @@ def launch_game_logic(player_name, rules_game, run_game):
                   f"Correct answer was '{correct_answer}'.")
             print(f"Let's try again, {player_name}!")
             break
-        number_of_attempts = number_of_attempts - 1
-        if number_of_attempts == 0:
-            print(f"Congratulations, {player_name}!")
+    else:
+        print(f"Congratulations, {player_name}!")
