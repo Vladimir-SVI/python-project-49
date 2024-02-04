@@ -4,7 +4,7 @@ rules_game = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def run_game():
-    random_number = random.randint(1, 100)
+    random_number = random.randint(2, 100)
     count = 0
     for i in range(2, random_number // 2 + 1):
         if (random_number % i == 0):
