@@ -11,6 +11,7 @@
 * Python 3.10
 * Pip 23
 * Poetry 1.4
+* prompt 0.4.1
 
 ### Installation: 
 * Clone repository
