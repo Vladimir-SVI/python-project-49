@@ -12,5 +12,4 @@ def run_game():
     result = 'no'
     if (count <= 0):
         result = 'yes'
-    print(f"Question: {random_number}")
-    return str(result)
+    return {'result': str(result), 'question': random_number}
