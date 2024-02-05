@@ -7,9 +7,10 @@ def run_game():
     length_progression = 10
     first_element_progression = random.randint(1, 100)
     denominator_progression = random.randint(1, 10)
-    progression = list(range(first_element_progression,
-                       first_element_progression+length_progression*denominator_progression,
-                       denominator_progression))
+    start = first_element_progression
+    stop = start + length_progression * denominator_progression
+    step = denominator_progression
+    progression = list(range(start, stop, step))
     list_progression = list(map(str, progression))
     number_choice = random.choice(list_progression)
     number_index = list_progression.index(number_choice)
