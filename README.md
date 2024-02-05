@@ -7,6 +7,18 @@
 
 ## “Mind Games” is a set of five console games, built on the principle of popular mobile applications for brain training. Every game asks questions, that need clear answers. After three correct answers, the game is considered completed. Wrong answers end the game and prompt you to play it again. 
 
+### Minimum Requirements:
+* Python 3.10
+* Pip 23
+* Poetry 1.4
+
+### Installation: 
+* Clone repository
+* Run the commands in the root folder:
+  * make install
+  * make build
+  * make package-install
+
 ### Game example:
 
 
