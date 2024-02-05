@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import brain_games.sample_gаmes as run_module
-import brain_games.games.game_calc as game_module
+import brain_games.games.calc as game_module
 
 
 def main():
