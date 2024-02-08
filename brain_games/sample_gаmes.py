@@ -6,7 +6,7 @@ def launch_game_logic(rules_game, run_game):
     player_name = prompt.string('May I have your name? ')
     print(f"Hello, {player_name}!")
     print(rules_game)
-    for i in range(1, 4):
+    for i in range(3):
         question, correct_answer = run_game()
         print(f"Question: {question}")
         answer = prompt.string('Your answer: ').strip()
