@@ -5,7 +5,7 @@
 
 # **Description**
 
-## “Mind Games” is a set of five console games, built on the principle of popular mobile applications for brain training. Every game asks questions, that need clear answers. After three correct answers, the game is considered completed. Wrong answers end the game and prompt you to play it again. 
+“Mind Games” is a set of five console games, built on the principle of popular mobile applications for brain training. Every game asks questions, that need clear answers. After three correct answers, the game is considered completed. Wrong answers end the game and prompt you to play it again. 
 
 ### Minimum Requirements:
 * Python 3.10
