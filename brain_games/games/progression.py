@@ -3,7 +3,7 @@ import random
 rules_game = 'What number is missing in the progression?'
 
 
-def run_game():
+def play_round():
     length_progression = 10
     first_element_progression = random.randint(1, 100)
     denominator_progression = random.randint(1, 10)

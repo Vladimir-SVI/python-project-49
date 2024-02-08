@@ -7,7 +7,7 @@ def launch_game_logic(game):
     print(f"Hello, {player_name}!")
     print(game.rules_game)
     for i in range(3):
-        question, correct_answer = game.run_game()
+        question, correct_answer = game.play_round()
         print(f"Question: {question}")
         answer = prompt.string('Your answer: ').strip()
         if answer == correct_answer:

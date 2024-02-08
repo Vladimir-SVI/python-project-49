@@ -14,7 +14,7 @@ def is_prime(number):
     return result
 
 
-def run_game():
+def play_round():
     random_number = random.randint(2, 100)
     result = is_prime(random_number)
     return random_number, str(result)
