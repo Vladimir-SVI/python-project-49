@@ -5,7 +5,7 @@ import brain_games.games.gcd as game_module
 
 
 def main():
-    run_module.launch_game_logic(game_module.rules_game, game_module.run_game)
+    run_module.launch_game_logic(game_module)
 
 
 if __name__ == '__main__':

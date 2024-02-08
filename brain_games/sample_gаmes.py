@@ -1,13 +1,13 @@
 import prompt
 
 
-def launch_game_logic(rules_game, run_game):
+def launch_game_logic(game):
     print("Welcome to the Brain Games!")
     player_name = prompt.string('May I have your name? ')
     print(f"Hello, {player_name}!")
-    print(rules_game)
+    print(game.rules_game)
     for i in range(3):
-        question, correct_answer = run_game()
+        question, correct_answer = game.run_game()
         print(f"Question: {question}")
         answer = prompt.string('Your answer: ').strip()
         if answer == correct_answer:
