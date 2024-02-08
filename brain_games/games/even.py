@@ -8,4 +8,4 @@ def run_game():
     result = 'no'
     if question % 2 == 0:
         result = 'yes'
-    return {'result': result, 'question': question}
+    return question, result

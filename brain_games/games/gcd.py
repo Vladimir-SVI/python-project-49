@@ -9,4 +9,4 @@ def run_game():
     number_right = random.randint(1, 100)
     question = f'{number_left} {number_right}'
     result = math.gcd(number_left, number_right)
-    return {'result': str(result), 'question': question}
+    return question, str(result)

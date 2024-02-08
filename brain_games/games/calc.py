@@ -15,4 +15,4 @@ def run_game():
         result = operand_left - operand_right
     else:
         result = operand_left * operand_right
-    return {'result': str(result), 'question': question}
+    return question, str(result)

@@ -16,4 +16,4 @@ def run_game():
     number_index = list_progression.index(number_choice)
     list_progression[number_index] = '..'
     question = ' '.join(list_progression)
-    return {'result': number_choice, 'question': question}
+    return question, number_choice

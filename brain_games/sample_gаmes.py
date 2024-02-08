@@ -7,14 +7,14 @@ def launch_game_logic(rules_game, run_game):
     print(f"Hello, {player_name}!")
     print(rules_game)
     for i in range(1, 4):
-        correct_answer = run_game()
-        print(f"Question: {correct_answer['question']}")
+        question, correct_answer = run_game()
+        print(f"Question: {question}")
         answer = prompt.string('Your answer: ').strip()
-        if answer == correct_answer['result']:
+        if answer == correct_answer:
             print("Correct!")
         else:
             print(f"'{answer}' is wrong answer ;(. "
-                  f"Correct answer was '{correct_answer['result']}'.")
+                  f"Correct answer was '{correct_answer}'.")
             print(f"Let's try again, {player_name}!")
             break
     else:
