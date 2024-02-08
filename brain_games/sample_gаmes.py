@@ -1,14 +1,10 @@
 import prompt
 
 
-def welcome_user():
+def launch_game_logic(rules_game, run_game):
     print("Welcome to the Brain Games!")
-    name = prompt.string('May I have your name? ')
-    print(f"Hello, {name}!")
-    return name
-
-
-def launch_game_logic(player_name, rules_game, run_game):
+    player_name = prompt.string('May I have your name? ')
+    print(f"Hello, {player_name}!")
     print(rules_game)
     for i in range(1, 4):
         correct_answer = run_game()

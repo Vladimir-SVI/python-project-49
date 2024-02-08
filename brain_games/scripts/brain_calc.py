@@ -5,9 +5,7 @@ import brain_games.games.calc as game_module
 
 
 def main():
-    player_name = run_module.welcome_user()
-    run_module.launch_game_logic(player_name,
-                                 game_module.rules_game, game_module.run_game)
+    run_module.launch_game_logic(game_module.rules_game, game_module.run_game)
 
 
 if __name__ == '__main__':
