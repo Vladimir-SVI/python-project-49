@@ -4,17 +4,16 @@ rules_game = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(number):
-    count = 0
-    for i in range(2, number // 2 + 1):
+    if number <= 1:
+        return False
+    for i in range(2, int(number ** 0.5) + 1):
         if number % i == 0:
-            count = count + 1
-    result = 'no'
-    if count <= 0:
-        result = 'yes'
-    return result
+            return False
+    return True
 
 
 def play_round():
     random_number = random.randint(2, 100)
-    result = is_prime(random_number)
+    prime = is_prime(random_number)
+    result = prime is False and 'no' or 'yes'
     return random_number, str(result)
