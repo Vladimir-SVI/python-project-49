@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 
-import brain_games.game_engine as run_module
 import brain_games.games.gcd as game_module
+from brain_games.game_engine import launch_game_logic
 
 
 def main():
-    run_module.launch_game_logic(game_module)
+    launch_game_logic(game_module)
 
 
 if __name__ == '__main__':
