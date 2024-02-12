@@ -3,7 +3,7 @@ import prompt
 NUMBER_OF_QUESTIONS = 3
 
 
-def launch_game_logic(game):
+def launch(game):
     print("Welcome to the Brain Games!")
     player_name = prompt.string('May I have your name? ')
     print(f"Hello, {player_name}!")
