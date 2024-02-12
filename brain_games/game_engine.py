@@ -1,12 +1,14 @@
 import prompt
 
+NUMBER_OF_QUESTIONS = 3
+
 
 def launch_game_logic(game):
     print("Welcome to the Brain Games!")
     player_name = prompt.string('May I have your name? ')
     print(f"Hello, {player_name}!")
     print(game.rules_game)
-    for i in range(3):
+    for i in range(NUMBER_OF_QUESTIONS):
         question, correct_answer = game.play_round()
         print(f"Question: {question}")
         answer = prompt.string('Your answer: ').strip()
