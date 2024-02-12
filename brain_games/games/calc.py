@@ -3,7 +3,7 @@ import random
 rules_game = 'What is the result of the expression?'
 
 
-def play_round():
+def generate_data():
     operators = '+-*'
     operand_left = random.randint(1, 10)
     operand_right = random.randint(1, 10)

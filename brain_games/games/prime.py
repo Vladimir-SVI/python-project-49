@@ -12,7 +12,7 @@ def is_prime(number):
     return True
 
 
-def play_round():
+def generate_data():
     random_number = random.randint(2, 100)
     prime = is_prime(random_number)
     result = prime is False and 'no' or 'yes'
