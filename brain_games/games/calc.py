@@ -13,6 +13,8 @@ def generate_data():
         result = operand_left + operand_right
     elif operator == '-':
         result = operand_left - operand_right
-    else:
+    elif operator == '*':
         result = operand_left * operand_right
+    else:
+        raise Warning("operator is not among the operators used")
     return question, str(result)
