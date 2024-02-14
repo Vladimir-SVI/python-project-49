@@ -1,6 +1,6 @@
 import random
 
-rules_game = 'What number is missing in the progression?'
+RULES_GAME = 'What number is missing in the progression?'
 
 
 def generate_data():

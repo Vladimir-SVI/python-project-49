@@ -1,7 +1,7 @@
 import random
 import math
 
-rules_game = 'Find the greatest common divisor of given numbers.'
+RULES_GAME = 'Find the greatest common divisor of given numbers.'
 
 
 def generate_data():

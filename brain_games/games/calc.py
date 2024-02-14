@@ -1,6 +1,6 @@
 import random
 
-rules_game = 'What is the result of the expression?'
+RULES_GAME = 'What is the result of the expression?'
 
 
 def generate_data():

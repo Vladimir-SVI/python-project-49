@@ -1,6 +1,6 @@
 import random
 
-rules_game = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+RULES_GAME = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(number):
